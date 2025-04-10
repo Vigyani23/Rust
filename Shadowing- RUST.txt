@@ -1,0 +1,10 @@
+    fn main() {
+    // Original integer variable declaration
+    let x = 42;
+    println!("x: {}", x);
+    
+    // Variable reassignment (shadowing) within the same scope
+    let x = "forty-two";
+    println!("x: {}", x);
+    
+    }
